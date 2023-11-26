@@ -1,1 +1,1 @@
-# GenAI_creditCard_fraudDetection
+# Data Balancing with GenAI - Credit Card Fraud Detection
