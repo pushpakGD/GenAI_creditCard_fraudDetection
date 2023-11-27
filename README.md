@@ -8,3 +8,11 @@
 This dataset is provided by Secure Trust Financial Services. And the model is a binary classifier but it is not working well because the data is imbalanced. To solve this problem, General Adversial Networks (GANs), a type of generative AI is used, to generate synthetic fraudulent transactions that are indistinguishable from real transactions. This method will help to improve the accuracy of the fraud detection model.
 
 ## Process:
+
+### 1. EDA
+
+### 2. Building generator and discriminator models
+
+### 3. Combining generator and discriminator
+
+### 4. Model evaluation
