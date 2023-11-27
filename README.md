@@ -17,6 +17,13 @@ This step included data exploration and dimensionality reduction.
 - PCA to reduce dimensionality of features X into two dimensions
 - Scatter plot to visualize data
 
+![GANss1](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss1.png)
+
+total 29 features and one class column
+
+![GANss2](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss2.png)
+
+![GANss3](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss3.png)
 
 ### 2. Building generator and discriminator models
 
@@ -39,11 +46,18 @@ This task includes
 
 This GAN model, when trained, allows the generator to learn to produce data that is indistinguishable from real data by fooling the discriminator. The overall goal is to achieve a generator that generates realistic data.
 
+![GANss4](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss4.png)
+
+![GANss5](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss5.png)
+
+![GANss6](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss6.png)
+
+![GANss7](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss7.png)
+
 ### 4. Model evaluation
 
 This task includes training and evaluating GAN by creating a function to monitor generator for defined number of epochs and batch size.
 Finally generating synthetic data using trained generator.
-- histograms to check the individual distribution of syntehtic and real fraud data.
 
 Input Parameter: generator, The generator model.
 ###### Functionality:
@@ -54,3 +68,14 @@ Another DataFrame (df_fake) is created for the transformed synthetic data with a
 The real and fake data DataFrames (df_real and df_fake) are concatenated into a single DataFrame (df_combined).
 A scatter plot is created using Seaborn (sns.scatterplot), where the first and second PCA components are used as the x and y axes, respectively. Points are colored based on the 'label' column, with a size of 10.
 
+- histograms to check the individual distribution of syntehtic and real fraud data.
+
+![GANss8](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss8.png)
+
+![GANss9](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss9.png)
+
+![GANss10](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss10.png)
+
+![GANss11](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss11.png)
+
+![GANss12](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss12.png)
