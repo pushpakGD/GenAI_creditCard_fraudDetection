@@ -9,7 +9,7 @@ This dataset is provided by Secure Trust Financial Services. And the model is a 
 
 ## Process:
 
-For more indepth explanation, please refer the notebook file included in this repository.
+To see the running GAN model, please refer the notebook file included in this repository.
 
 ### 1. EDA
 
