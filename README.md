@@ -17,7 +17,10 @@ This step included data exploration and dimensionality reduction.
 - PCA to reduce dimensionality of features X into two dimensions
 - Scatter plot to visualize data
 
+A block diagram for undesrtanding the process
+
 ![GANss1](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss1.png)
+
 
 total 29 features and one class column
 
