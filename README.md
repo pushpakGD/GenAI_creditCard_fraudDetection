@@ -49,6 +49,8 @@ This task includes
 
 This GAN model, when trained, allows the generator to learn to produce data that is indistinguishable from real data by fooling the discriminator. The overall goal is to achieve a generator that generates realistic data.
 
+In the scatter plots below, it can be seen how the combined generator and discriminator model generates synthetic data points to resemble the real data points.
+
 ![GANss4](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss4.png)
 
 ![GANss5](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss5.png)
@@ -72,6 +74,9 @@ The real and fake data DataFrames (df_real and df_fake) are concatenated into a 
 A scatter plot is created using Seaborn (sns.scatterplot), where the first and second PCA components are used as the x and y axes, respectively. Points are colored based on the 'label' column, with a size of 10.
 
 - histograms to check the individual distribution of syntehtic and real fraud data.
+
+Histograms to visualize the distribution of each feature while differentiating between real and fake data points.
+- for all 29 features
 
 ![GANss8](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss8.png)
 
