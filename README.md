@@ -34,7 +34,7 @@ The discriminator is trained to correctly classify real data as real and synthet
 Initially, the discriminator's performance might be random.
 
 - 3. Training Process:
-During training, the generator and discriminator are in a constant feedback loop.
+During training, the generator and discriminator are combined and are always in a constant feedback loop.
 The generator tries to improve its ability to generate realistic data by fooling the discriminator.
 The discriminator aims to become better at distinguishing real from synthetic data.
 
