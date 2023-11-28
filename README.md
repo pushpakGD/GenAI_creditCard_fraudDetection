@@ -19,8 +19,28 @@ This step included data exploration and dimensionality reduction.
 
 A block diagram for undesrtanding the process
 
+A Generator-Discriminator model, commonly referred to as a GAN (Generative Adversarial Network), is a framework in machine learning where two neural networks, the generator and the discriminator, are trained simultaneously through adversarial training. The basic idea is to have the generator create data instances, and the discriminator evaluate them. This process continues iteratively, with both networks improving over time (based on number of epochs and batch_size you describe).
+
 ![GANss1](https://github.com/pushpakGD/GenAI_creditCard_fraudDetection/blob/main/images/GANss1.png)
 
+- 1. Generator:
+The generator takes random noise as input and produces synthetic data.
+The objective of the generator is to create data that is indistinguishable from real data.
+Initially, the generator produces data that may not resemble the real data.
+
+- 2. Discriminator:
+The discriminator takes both real and synthetic data as input and classifies them as either real or fake.
+The discriminator is trained to correctly classify real data as real and synthetic data as fake.
+Initially, the discriminator's performance might be random.
+
+- 3. Training Process:
+During training, the generator and discriminator are in a constant feedback loop.
+The generator tries to improve its ability to generate realistic data by fooling the discriminator.
+The discriminator aims to become better at distinguishing real from synthetic data.
+
+- 4. Adversarial Nature:
+The generator and discriminator are adversaries in the sense that one is trying to outperform the other.
+The competition between them results in the generator producing increasingly realistic data, and the discriminator becoming more skilled at telling real from fake.
 
 total 29 features and one class column
 
